@@ -1,0 +1,39 @@
+{
+  "name": "technical_sanskar",
+  "version": "1.0.0",
+  "description": "Technical sanskar",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www.js"
+  },
+  "author": {
+    "name": "Aniket Gore",
+    "email": "aniket.p.gore@gmail.com",
+    "website": "www.technical_sanskar.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "async": "^2.6.1",
+    "aws-sdk": "^2.270.1",
+    "axios": "^0.18.0",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "hashmap": "^2.3.0",
+    "joi": "^13.5.2",
+    "joi-objectid": "^2.0.0",
+    "jsesc": "^2.5.1",
+    "json": "^9.0.6",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0",
+    "random-key": "^0.3.2",
+    "randomstring": "^1.1.5",
+    "redis": "^2.8.0",
+    "redis-jsonify": "^1.2.0",
+    "cors": "^2.8.5"
+  }
+}
