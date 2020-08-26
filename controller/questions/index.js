@@ -12,8 +12,8 @@ const express = require('express')
 
 router.post('*/create', (req, res) => {
     questions.createQuestion(req.body, result => {
-            res.json(result);
-        })
+        res.json(result);
+    })
 })
 
 module.exports = router;
