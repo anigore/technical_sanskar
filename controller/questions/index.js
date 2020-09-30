@@ -6,8 +6,8 @@
 
 const express = require('express')
     , router = express.Router()
-    , joi = require('../../lib/joi')
     , questions = require('../../lib/questions')
+    , common = require('../../Connector/CRUD/common')
 
 
 router.post('*/create', (req, res) => {

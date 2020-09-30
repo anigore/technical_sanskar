@@ -17,7 +17,8 @@ module.exports = {
 
     SUCCESS: 1000,
     ERROR: 1001,
-    NOT_FOUND: 2001
+    NOT_FOUND: 2001,
+    FORMAT_ERROR:1003
 
 
 }

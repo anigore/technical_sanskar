@@ -3,6 +3,6 @@ const question = require('../controller/questions')
 
 module.exports.initialize = function (app) {
 
-    app.use('/que', question);       /* question */
-    app.use('/usr', user);           /* user */
+    app.use('/question', question);       /* question */
+    app.use('/user', user);           /* user */
 }
